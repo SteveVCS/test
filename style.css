@@ -27,9 +27,13 @@ body {
     background-color: #d01515;
     margin: 0 30px;
     opacity: 1;
+    transition: transform 0.3s ease-in-out;
 }
 
-.games:hover {opacity: 0.6}
+.games:hover {
+    opacity: 0.6;
+    transform: scale(1.20);
+}
 
 canvas {
     border: 1px solid black;
